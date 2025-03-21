@@ -16,12 +16,12 @@ with col1:
     st.title("📜 Contract AI Reviewer")
     st.markdown("##### Powered by Reactiiv Media")
 with col2:
-    st.image("https://via.placeholder.com/150", width=120)  # Replace with actual logo
+    st.image("logo.png", width=120)  # Replace with actual logo
 
 st.markdown("---")
 
 # --- Sidebar API Key Management ---
-st.sidebar.image("https://via.placeholder.com/200x80", use_container_width=True)  # Replace with actual logo
+st.sidebar.image("logo.png", use_container_width=True)  # Replace with actual logo
 st.sidebar.header("🔐 OpenAI API Configuration")
 if 'openai_api_key' not in st.session_state:
     st.session_state['openai_api_key'] = ''
